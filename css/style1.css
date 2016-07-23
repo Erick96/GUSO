@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 19-jul-2016, 11:50:35
+    Author     : Riden
+*/
+
+/*Inicio*/
+/*Menu dinamico*/
+* {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  font-size:16px;
+  background: #fff;
+}
+
+header {
+  height:75px;
+  background:#fff;
+}
+#barra{
+    background-color: #252526;
+}
+
+header h1 {
+  text-align: center;
+  color:white;
+  line-height: 75px;
+}
+
+nav {
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 3px 0 3px 3px rgba(0,0,0,0.25);
+  background: red;
+}
+
+nav.scrolled {
+  top:0;
+position: fixed;
+}
+
+
+ul {
+  height:50px;
+  line-height:50px;
+
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size:1.5rem;
+  padding: 0 1em;
+  border-left: 1px groove limegreen;
+}
+
+.container {
+  height:1500px;
+  padding-top: 75px;
+}
+/*fin menu*/
+
+/*Banner*/
+
+/*fin Banner*/
+
+
